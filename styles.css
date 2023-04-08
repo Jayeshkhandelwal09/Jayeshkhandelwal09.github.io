@@ -953,6 +953,6 @@ img{
     background-color: #576EE0;
     border: none;
     font-size: var(--small-font-size);
-    color: var(--title-color);
+    color: #FFF;
     font-weight: var(--font-medium);
   }
