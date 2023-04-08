@@ -947,3 +947,12 @@ img{
     width: 55%;
     background-color: black;
   }
+
+  #resume-button-1,
+  #resume-button-2{
+    background-color: #576EE0;
+    border: none;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+  }
