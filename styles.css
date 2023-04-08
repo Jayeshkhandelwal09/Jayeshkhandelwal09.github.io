@@ -610,7 +610,9 @@ img{
 
 .swiper-horizontal > .swiper-pagination-bullets{
     bottom: -1.5rem;
+ 
 }
+
 
 .swiper-pagination-bullet-active{
     background-color: var(--first-color);
@@ -703,6 +705,20 @@ img{
     .project__img{
         width: 200px;
     }
+
+    .react-activity-calendar {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+      }
+      .calendar div{
+        width: 100%;
+        display: block;
+     }
+     #git-stat > div > img {
+        width: 90%;
+        background-color: black;
+      }
 
 }
 
@@ -919,3 +935,15 @@ img{
         margin-top: 4.5rem;
     }
 }
+
+.react-activity-calendar {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  
+  #git-stat > div > img {
+    width: 55%;
+    background-color: black;
+  }
