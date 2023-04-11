@@ -917,6 +917,7 @@ img{
 
     .footer_container{
         grid-template-columns: repeat(3,1fr);
+        
     }
     
     .footer__bg{
@@ -953,6 +954,6 @@ img{
     background-color: #576EE0;
     border: none;
     font-size: var(--small-font-size);
-    color: #FFF;
+    color: var(--title-color);
     font-weight: var(--font-medium);
   }
