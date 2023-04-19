@@ -977,7 +977,8 @@ img{
   }
 
   #resume-button-1,
-  #resume-button-2{
+  #resume-button-2,
+  #resume-button-3{
     background-color: #576EE0;
     border: none;
     font-size: var(--small-font-size);
