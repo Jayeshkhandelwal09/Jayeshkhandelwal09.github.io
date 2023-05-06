@@ -251,6 +251,32 @@ img{
     color: var(--first-color-alt);
 }
 
+/* techstack of project */
+.tech-stack {
+    display: flex;
+    justify-content: center; /* to horizontally center the elements */
+  }
+  
+  .tech-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* to center the content vertically */
+    margin: 0 10px; /* add some margin between the elements */
+  }
+  
+  .tech-card img {
+    width: 80px;
+
+    object-fit: contain; /* to scale the image without distorting its aspect ratio */
+  }
+  
+  .tech-card h6 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+
 /* show menu */
 .show-menu{
     bottom: 0;
@@ -720,6 +746,31 @@ img{
         background-color: black;
       }
 
+      .tech-stack {
+        display: flex;
+        justify-content: center; /* to horizontally center the elements */
+      }
+      
+      .tech-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* to center the content vertically */
+        margin: 0 10px; /* add some margin between the elements */
+      }
+      
+      .tech-card img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain; /* to scale the image without distorting its aspect ratio */
+      }
+      
+      .tech-card h6 {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+      }
+
 }
 
 /* for medium screen devices */
@@ -841,6 +892,7 @@ img{
     }
     .about__description{
         text-align: initial;
+        margin-bottom: 5px;
     }
     .about_info{
         justify-content: space-between;
@@ -940,9 +992,10 @@ img{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         margin: auto;
         gap: 3px;
+        margin-bottom: 10px;
        /* border: 1px solid green; */
     }
     
