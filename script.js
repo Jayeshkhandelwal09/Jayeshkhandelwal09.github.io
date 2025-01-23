@@ -144,12 +144,12 @@ themeButton.addEventListener('click', () => {
 
 // Resume opening links
 document.getElementById('resume-button-1').addEventListener("click", () => {
-    window.open("https://drive.google.com/file/d/1I7WJjZsAarVpxKsTsWO-SyuFsGZL6rcU/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1QMI3P0NQa9rubjgiCDqhNVMk_XN-hBj9/view?usp=sharing", "_blank");
   });
   
   document.getElementById('resume-button-2').addEventListener("click", () => {
     console.log("OPENinig.....");
-    window.open("https://drive.google.com/file/d/1I7WJjZsAarVpxKsTsWO-SyuFsGZL6rcU/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1QMI3P0NQa9rubjgiCDqhNVMk_XN-hBj9/view?usp=sharing", "_blank");
   });
 
 
